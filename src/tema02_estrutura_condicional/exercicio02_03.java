@@ -20,8 +20,7 @@ public class exercicio02_03 {
 
         if (A % B == 0 || B % A == 0) {
             System.out.print("SÃO MULTIPLOS");
-        }
-        else {
+        } else {
             System.out.print("NÃO SÃO MULTIPLOS");
         }
 

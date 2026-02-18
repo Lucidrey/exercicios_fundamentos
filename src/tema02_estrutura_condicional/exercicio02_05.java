@@ -17,6 +17,7 @@ public class exercicio02_05 {
         int codigo = sc.nextInt();
         int quantidade = sc.nextInt();
         double preco = 0;
+        double total = preco * quantidade;
 
         switch (codigo) {
             case 1: preco = 4.00; break;
@@ -26,8 +27,6 @@ public class exercicio02_05 {
             case 5: preco = 1.50; break;
             default: System.out.print("Código inválido");
         }
-
-        double total = preco * quantidade;
 
         System.out.printf("Total: R$%.2f%n", total);
 

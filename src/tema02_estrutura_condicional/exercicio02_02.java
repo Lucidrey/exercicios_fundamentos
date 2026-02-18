@@ -17,8 +17,7 @@ public class exercicio02_02 {
 
         if ( numero % 2 == 0) {
             System.out.print("NÚMERO PAR");
-        }
-        else {
+        } else {
             System.out.print("NÚMERO IMPAR");
         }
 

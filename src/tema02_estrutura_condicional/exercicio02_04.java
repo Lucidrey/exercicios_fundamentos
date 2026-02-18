@@ -20,8 +20,7 @@ public class exercicio02_04 {
 
         if (horaInicial < horaFinal ) {
             duracao = horaInicial - horaFinal;
-        }
-        else {
+        } else {
             duracao = 24 - horaInicial + horaFinal;
         }
         System.out.print("Você jogou durante: " + duracao + " horas.");
