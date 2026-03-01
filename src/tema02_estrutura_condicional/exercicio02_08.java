@@ -21,6 +21,24 @@ public class exercicio02_08 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        double salario = sc.nextDouble();
+        double imposto = 0;
+
+        if (salario >= 0  && salario <2000) {
+            System.out.println("Isento");
+        } else if (salario >= 2000 && salario < 3000) {
+            imposto = (salario * 0.08);
+        } else if (salario >= 3000 && salario < 4500) {
+            imposto = (salario * 0.18);
+        } else if (salario >= 4500) {
+            imposto = (salario * 0.28);
+        }
+        else {
+            System.out.println("Valor invalido");
+        }
+
+        System.out.printf("R$ %.2f%n", imposto);
+
         sc.close();
     }
 }
